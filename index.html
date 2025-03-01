@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="phone">
+        <div class="screen">
+          <div class="screen__top">
+            <div class="edge"></div>
+            <div class="screen__content">
+              <div class="avatar__data">
+                <div>
+                  <svg
+                    width="4"
+                    height="10"
+                    viewBox="0 0 4 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2.10557 0.552784C2.35256 0.0588057 2.95324 -0.141419 3.44721 0.105571C3.90591 0.334918 4.11131 0.869227 3.94056 1.33989L3.89443 1.44721L2.118 5L3.89443 8.55278C4.12377 9.01148 3.96751 9.56217 3.54851 9.83625L3.44721 9.89443C2.98852 10.1238 2.43783 9.96751 2.16374 9.54851L2.10557 9.44721L0.105573 5.44721C-0.0150818 5.2059 -0.0323182 4.92797 0.0538637 4.6762L0.105573 4.55278L2.10557 0.552784Z"
+                      fill="white"
+                    />
+                  </svg>
+                  <img class="avatar__image" src="images/avatar.jpg" alt="" />
+                  <div class="avatar__name__available">
+                    <h2 class="avatar__name">Samuel Green</h2>
+                    <p class="avatar__availability">Available to Walk</p>
+                  </div>
+                </div>
+                <svg
+                  class="avatar__settings"
+                  width="2"
+                  height="8"
+                  viewBox="0 0 2 8"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M2 1C2 1.55228 1.55228 2 1 2C0.447715 2 0 1.55228 0 1C0 0.447715 0.447715 0 1 0C1.55228 0 2 0.447715 2 1ZM2 4C2 4.55228 1.55228 5 1 5C0.447715 5 0 4.55228 0 4C0 3.44772 0.447715 3 1 3C1.55228 3 2 3.44772 2 4ZM1 8C1.55228 8 2 7.55228 2 7C2 6.44772 1.55228 6 1 6C0.447715 6 0 6.44772 0 7C0 7.55228 0.447715 8 1 8Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="screen__body">
+            <p class="received-message">
+              That sounds great. I’d be happy with that.
+            </p>
+            <p class="received-message">
+              Could you send over some pictures of your dog, please?
+            </p>
+            <div class="sent-images__container">
+              <img class="sent-image" src="./images/dog-image-1.jpg" alt="" />
+              <img class="sent-image" src="./images/dog-image-2.jpg" alt="" />
+              <img class="sent-image" src="./images/dog-image-3.jpg" alt="" />
+            </div>
+            <div class="sent-message__container">
+              <p class="sent-message sent-message__1">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+              <p class="sent-message sent-message__2">Can you make it?</p>
+            </div>
+            <p class="received-message received-message__3">
+              She looks so happy! The time we discussed works. How long shall I
+              take her out for?
+            </p>
+            <div class="received-task">
+              <div class="received-task__left">
+                <span class="received-task__icon"></span>
+                <span class="received-task__duration">30 minute walk</span>
+              </div>
+              <div class="received-task__amount">$29</div>
+            </div>
+            <div class="received-task">
+              <div class="received-task__left">
+                <span class="received-task__icon"></span>
+                <span class="received-task__duration">1 hour walk</span>
+              </div>
+              <div class="received-task__amount">$49</div>
+            </div>
+            <div class="input__container">
+              <input class="input" type="text" placeholder="Type a message…" />
+              <div class="btn__submit">
+                <svg
+                  width="7"
+                  height="10"
+                  viewBox="0 0 7 10"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.06419 0.464993C1.50167 0.028436 2.19006 -0.00514531 2.66614 0.364249L2.78047 0.464993L6.42125 4.09809C6.85873 4.53464 6.89238 5.22158 6.52221 5.69666L6.42125 5.81074L2.78047 9.44384C2.30653 9.91677 1.53813 9.91677 1.06419 9.44384C0.626713 9.00728 0.59306 8.32034 0.963236 7.84527L1.06419 7.73118L3.84588 4.95442L1.06419 2.17765C0.626713 1.74109 0.59306 1.05416 0.963236 0.579081L1.06419 0.464993Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <article class="content">
+        <h1 class="title">Simple booking</h1>
+        <p class="description">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
